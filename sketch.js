@@ -34,8 +34,6 @@ function setup() {
 	//Render.run(render);
   
 }
-
-
 function draw() {
   rectMode(CENTER);
   background(0);
@@ -43,11 +41,7 @@ function draw() {
   dustbinObj.display();
   paperObject.display();
   groundObject.display();
-  
- 
-  
-  
- 
+
 }
 
 function keyPressed() {
